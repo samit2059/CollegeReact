@@ -1,0 +1,12 @@
+class User{
+    constructor(Name){
+        this.Name = Name;
+    }
+    login(){
+        console.log('UserName = ', this.Name)
+    }
+}
+// 
+const user1 = new User("samit");
+// console.log(user1);
+user1.login();

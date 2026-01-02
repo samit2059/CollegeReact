@@ -1,0 +1,1 @@
+export const config = "https://jsonplaceholder.typicode.com/todos/2"

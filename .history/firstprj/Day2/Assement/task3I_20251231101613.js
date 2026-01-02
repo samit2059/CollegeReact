@@ -1,0 +1,2 @@
+import { config } from "./task3E";
+

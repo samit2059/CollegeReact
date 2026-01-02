@@ -1,0 +1,15 @@
+//  class : blueprint
+//  object : instance
+//  class examplee
+
+class Car{
+    // initial setup for this class
+    constructor(color, wheels, brand, model){
+        this.color = color
+        this.wheels = wheels
+        this.brand = brand
+        this.model = model
+    }
+    
+}
+// 
