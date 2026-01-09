@@ -1,0 +1,5 @@
+const exception = () =>{
+    try{
+        
+    }
+}

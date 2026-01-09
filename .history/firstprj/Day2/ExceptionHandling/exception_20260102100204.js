@@ -1,0 +1,3 @@
+let getUserById = async(id) =>{
+    
+}

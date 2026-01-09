@@ -1,0 +1,17 @@
+const exception = (a,b) =>{
+    try{
+        const data = a/b;
+        console.log(data);
+        
+    }
+    catch(err){
+            if(b === 0){
+            throw "B shouldnot be 0";
+            // console.log(err);
+        }
+    }
+    finally{
+        console.log("");
+    }
+}
+exception(1,2);

@@ -1,0 +1,4 @@
+const poster = async() =>{
+    const response = await fetch("https://jsonplaceholder.typicode.com/posts/1");
+    const data = await 
+}
