@@ -1,0 +1,18 @@
+import { useState } from "react"
+
+let Profile = ({gretting}) =>{
+    const [count, setCount] = useState(0);
+    return (
+        <div className="items-center justify-center bg-pink-400 text-center flex">
+        <div className="p-2 bg-pink-500 w-[600px] items-center justify-center">
+            <p className="p-2 text-amber-300 font-mono font-bold  stretched stroke-emerald-200">Gretting from {gretting}</p>
+            {count%2 == 0 ? <h2>EVEN</h2> : <h2>ODD</h2>}
+            <h1>Profile Page</h1>
+            <button onClick={() => setCount(count+1)} className="p-2 m-2 bg-amber-400 font-medium rounded-lg shadow-lg text-white">Click me</button>
+            <p className="p-2 text-amber-800 font-mono ">Count : {count}</p>
+        </div>
+        </div>
+    )
+}
+
+export default Profile

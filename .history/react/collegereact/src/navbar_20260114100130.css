@@ -1,0 +1,12 @@
+*{
+    
+}
+
+@import "tailwindcss";
+.navelement{
+    color:white;
+}
+
+.navelement:hover{
+    color:aliceblue;
+}

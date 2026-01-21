@@ -1,0 +1,13 @@
+
+
+.navelement {
+    color: white;
+}
+
+.navelement:hover {
+    color: aliceblue;
+}
+
+.navbar {
+    /* padding: 30px 20px; */
+}

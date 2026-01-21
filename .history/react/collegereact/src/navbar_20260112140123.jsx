@@ -1,0 +1,17 @@
+let Navbar = () => {
+  return (
+    <nav >
+      <div className=" justify-between bg-amber-200 flex-row flex">
+        <div className="flex-1">Website Name</div>
+        <div className="align-center flex flex-row justify-between bg-blue-400 px-5">
+          <div className="flex-1 px-5">Home</div>
+          <div className="flex-1 px-5">About Us</div>
+          <div className="flex-1 px-5 mx-6 bg-amber-400">Contact Us</div>
+          <div className="flex-1 px-5">Profile</div>
+        </div>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;

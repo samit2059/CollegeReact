@@ -1,0 +1,16 @@
+let Navbar = () =>{
+    return (
+        <div>
+            <nav>
+                <div>
+                    Website Name
+                </div>
+                <div>
+                    
+                </div>
+            </nav>
+        </div>
+    )
+}
+
+export default Navbar;

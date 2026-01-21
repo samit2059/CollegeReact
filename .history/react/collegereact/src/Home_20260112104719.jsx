@@ -1,0 +1,2 @@
+// fucntion Home (){}
+let Home = () =>{}

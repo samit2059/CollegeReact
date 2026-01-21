@@ -1,0 +1,10 @@
+/* @import "tailwindcss"; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* in index.css (after tailwind layers) */
+.tw-root .btn {
+  @apply px-4 py-2 bg-blue-500 text-white rounded;
+}

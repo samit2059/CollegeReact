@@ -1,0 +1,39 @@
+// fucntion Home (){}
+// never call component as function
+// Home()
+let Home = () =>{
+    return(
+        <div className="text-">
+            <h1>Home Page</h1>
+            <p>This is home page</p>
+            <Third />
+        </div>
+    )
+}
+export default Home;
+
+let First = ()=>{
+    return (
+        <div>
+            <h1>I am first</h1>
+        </div>
+    )
+}
+
+let Second = ()=>{
+    return (
+        <div>
+            <h1>I am second</h1>
+        </div>
+    )
+}
+
+let Third = ()=>{
+    return (
+        <div>
+            <h1>I am third</h1>
+        </div>
+    )
+}
+
+export {First, Second, Third}
