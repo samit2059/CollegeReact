@@ -32,7 +32,7 @@ createRoot(document.getElementById("root")).render(
     <Nav1 />
     {/* <ThemeUpdate /> */}
     {/* <ConditionalRender/> */}
-    <Check isLoggedIn={false}/>
+    <Check isLoggedIn={true}/>
     {/* <Header /> */}
     {/* <First address={"BKT"} age={33} fullName="motorcycle" /> */}
     {/* <First {...myObj} /> */}

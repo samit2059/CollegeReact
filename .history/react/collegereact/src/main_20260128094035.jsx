@@ -5,13 +5,11 @@ import App from "./App.jsx";
 import Navbar from "./navbar.jsx";
 import Nav1 from "./nav1.jsx";
 import First from "./Props Example/First.jsx";
-import Check from "./day6/ConditionalRendering/Check.jsx";
 // import Profile from "./profile.jsx";
 import Profile from "./StateExamples/profile.jsx";
 import Second from "./Props Example/Second.jsx";
 import Header from "./day4/header.jsx";
 import ThemeUpdate from "./day6/ThemeUpdate.jsx";
-import ConditionalRender from "./day6/ConditionalRendering/conditionalRender.jsx";
 // import Home from './Home.jsx'
 // import { Second } from './Home.jsx'
 
@@ -30,9 +28,6 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     {/* <Navbar /> */}
     <Nav1 />
-    {/* <ThemeUpdate /> */}
-    {/* <ConditionalRender/> */}
-    <Check isLoggedIn={false}/>
     {/* <Header /> */}
     {/* <First address={"BKT"} age={33} fullName="motorcycle" /> */}
     {/* <First {...myObj} /> */}

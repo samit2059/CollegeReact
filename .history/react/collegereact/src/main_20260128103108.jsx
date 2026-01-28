@@ -5,7 +5,6 @@ import App from "./App.jsx";
 import Navbar from "./navbar.jsx";
 import Nav1 from "./nav1.jsx";
 import First from "./Props Example/First.jsx";
-import Check from "./day6/ConditionalRendering/Check.jsx";
 // import Profile from "./profile.jsx";
 import Profile from "./StateExamples/profile.jsx";
 import Second from "./Props Example/Second.jsx";
@@ -32,7 +31,7 @@ createRoot(document.getElementById("root")).render(
     <Nav1 />
     {/* <ThemeUpdate /> */}
     {/* <ConditionalRender/> */}
-    <Check isLoggedIn={false}/>
+    <Check />
     {/* <Header /> */}
     {/* <First address={"BKT"} age={33} fullName="motorcycle" /> */}
     {/* <First {...myObj} /> */}
